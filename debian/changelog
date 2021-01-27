@@ -1,0 +1,50 @@
+python-xmlschema (1.4.2-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * debian/copyright: use spaces rather than tabs to start continuation lines.
+    Changes-By: lintian-brush
+    Fixes: lintian: tab-in-license-text
+    See-also: https://lintian.debian.org/tags/tab-in-license-text.html
+
+  [ Christian Kastner ]
+  * New upstream release.
+  * Bump python3-elementtree dependency to 2.1.2
+
+ -- Christian Kastner <ckk@debian.org>  Wed, 27 Jan 2021 01:34:13 +0100
+
+python-xmlschema (1.4.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update d/copyright
+
+ -- Christian Kastner <ckk@debian.org>  Tue, 12 Jan 2021 21:28:04 +0100
+
+python-xmlschema (1.3.1-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Drop obsolete patches
+  * Bump elementpath Build-Depends to  >= 2.0.4
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Update test preparation in d/rules and autopkgtest.
+    (Closes: #975412, #975525, #975811)
+
+ -- Christian Kastner <ckk@debian.org>  Wed, 25 Nov 2020 22:52:50 +0100
+
+python-xmlschema (1.2.5-1) unstable; urgency=medium
+
+  * New upstream version 1.2.5
+
+ -- Christian Kastner <ckk@debian.org>  Thu, 15 Oct 2020 00:03:21 +0200
+
+python-xmlschema (1.2.2-2) unstable; urgency=medium
+
+  * Update Maintainer and Vcs-* for new Debian Python Team
+  * wrap-and-sort
+
+ -- Christian Kastner <ckk@debian.org>  Tue, 22 Sep 2020 14:26:10 +0200
+
+python-xmlschema (1.2.2-1) unstable; urgency=medium
+
+  * Initial release. Closes: #968151
+
+ -- Christian Kastner <ckk@debian.org>  Sun, 09 Aug 2020 20:13:35 +0200

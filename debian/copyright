@@ -1,0 +1,151 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xmlschema
+Source: https://github.com/sissaschool/xmlschema/
+
+Files: *
+Copyright: 2016-2020, SISSA (Scuola Internazionale Superiore di Studi Avanzati)
+License: Expat
+
+Files:
+ xmlschema/schemas/XHTML/xhtml1-strict.xsd
+ xmlschema/schemas/XLINK/xlink.xsd
+ xmlschema/schemas/XSD_1.0/datatypes.xsd
+ xmlschema/schemas/XSD_1.0/XMLSchema.xsd
+ xmlschema/schemas/XSD_1.1/datatypes.xsd
+ xmlschema/schemas/XSD_1.1/XMLSchema.xsd
+Copyright: 1994-2002, 2012 World Wide Web Consortium
+               (Massachusetts Institute of Technology,
+ 	        Institut National de Recherche en Informatique et en Automatique,
+ 		Keio University).
+License: W3C-20150513
+Comment: These files were originally licensed using the W3C license, but have
+ been relicensed to W3C-20150513 in the meantime (W3C and W3C-20150513 are the
+ SPDX identifiers).
+ .
+ Quoting https://www.w3.org/Consortium/Legal/2002/copyright-software-20021231
+ .
+   This license was applied to software published by W3C before 13 May, 2015.
+   On 13 May, 2015, W3C adopted a revised and renamed "software and document"
+   license and applied the new license to all W3C documents that had
+   previously been made available under this license. The new license grants
+   all permissions that had been granted under this 2002 license.
+
+Files:
+ xmlschema/schemas/WSDL/soap-encoding.xsd
+ xmlschema/schemas/WSDL/soap-envelope.xsd
+Copyright: 1994-2002, 2012 World Wide Web Consortium
+               (Massachusetts Institute of Technology,
+	        Institut National de Recherche en Informatique et en Automatique,
+		Keio University).
+           2001, DevelopMentor
+License: W3C-20150513
+
+Files:
+ xmlschema/schemas/WSDL/wsdl-soap.xsd
+ xmlschema/schemas/WSDL/wsdl.xsd
+Copyright: 2001-2005, International Business Machines Corporation
+           2001-2005, Microsoft Corporation
+License: WSDL
+
+Files: debian/*
+Copyright: 2020, Christian Kastner <ckk@debian.org>
+License: Expat
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is furnished
+ to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: W3C-20150513
+ W3C SOFTWARE AND DOCUMENT NOTICE AND LICENSE
+ .
+ This work is being provided by the copyright holders under the following
+ license.
+ .
+ LICENSE
+ .
+ By obtaining and/or copying this work, you (the licensee) agree that you have
+ read, understood, and will comply with the following terms and conditions.
+ .
+ Permission to copy, modify, and distribute this work, with or without
+ modification, for any purpose and without fee or royalty is hereby granted,
+ provided that you include the following on ALL copies of the work or portions
+ thereof, including modifications:
+ .
+   * The full text of this NOTICE in a location viewable to users of the
+     redistributed or derivative work.
+   * Any pre-existing intellectual property disclaimers, notices, or terms and
+     conditions. If none exist, the W3C Software and Document Short Notice
+     should be included.
+   * Notice of any changes or modifications, through a copyright statement on
+     the new code or document such as "This software or document includes
+     material copied from or derived from [title and URI of the W3C document].
+     Copyright © [YEAR] W3C® (MIT, ERCIM, Keio, Beihang)."
+ .
+ DISCLAIMERS
+ .
+ THIS WORK IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS
+ OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES
+ OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF
+ THE SOFTWARE OR DOCUMENT WILL NOT INFRINGE ANY THIRD PARTY PATENTS,
+ COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.
+ .
+ COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR
+ CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENT.
+ .
+ The name and trademarks of copyright holders may NOT be used in advertising
+ or publicity pertaining to the work without specific, written prior
+ permission. Title to copyright in this work will at all times remain with
+ copyright holders.
+ .
+ NOTES
+ .
+ This version: http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
+ .
+ Previous version: http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231
+ .
+ This version makes clear that the license is applicable to both software and
+ text, by changing the name and substituting "work" for instances of "software
+ and its documentation." It moves "notice of changes or modifications to the
+ files" to the copyright notice, to make clear that the license is compatible
+ with other liberal licenses.
+
+License: WSDL
+ All Rights Reserved
+ .
+ License for WSDL Schema Files
+ .
+ The Authors grant permission to copy and distribute the WSDL Schema
+ Files in any medium without fee or royalty as long as this notice and
+ license are distributed with them.  The originals of these files can
+ be located at:
+ .
+ http://schemas.xmlsoap.org/wsdl/soap/2003-02-11.xsd
+ .
+ THESE SCHEMA FILES ARE PROVIDED "AS IS," AND THE AUTHORS MAKE NO REPRESENTATIONS
+ OR WARRANTIES, EXPRESS OR IMPLIED, REGARDING THESE FILES, INCLUDING, BUT NOT
+ LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+ NON-INFRINGEMENT OR TITLE.  THE AUTHORS WILL NOT BE LIABLE FOR ANY DIRECT,
+ INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR
+ RELATING TO ANY USE OR DISTRIBUTION OF THESE FILES.
+ .
+ The name and trademarks of the Authors may NOT be used in any manner,
+ including advertising or publicity pertaining to these files or any program
+ or service that uses these files, written prior permission.  Title to copyright
+ in these files will at all times remain with the Authors.
+ .
+ No other rights are granted by implication, estoppel or otherwise.

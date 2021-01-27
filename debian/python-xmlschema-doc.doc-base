@@ -1,0 +1,10 @@
+Document: xmlschema
+Title: Debian xmlschema Manual
+Author: SISSA (Scuola Internazionale Superiore di Studi Avanzati)
+Abstract: This manual provides the documentation for xmlschema. It contains an
+ API reference.
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python3-xmlschema/html/index.html
+Files: /usr/share/doc/python3-xmlschema/html/*.html
